@@ -34,5 +34,5 @@ jobs:
         run: |
           ./gradlew sonarqube \
             -Dsonar.projectKey=meu-projeto \
-            -Dsonar.host.url=http://localhost:9000 \
+            -Dsonar.host.url=http://localhost:36355 \
             -Dsonar.login=$SONAR_TOKEN
